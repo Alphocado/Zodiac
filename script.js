@@ -171,6 +171,7 @@ function performSearch() {
   let day = document.getElementById("day").value;
   let month = document.getElementById("month").value;
 
+  // update check null
   if(!day || !month){
     alert("Please entry correctly");
   } else {
