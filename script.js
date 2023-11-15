@@ -171,8 +171,8 @@ function performSearch() {
   let day = document.getElementById("day").value;
   let month = document.getElementById("month").value;
 
-  if(day == null && month == null){
-    alert("Mohon masukkan dengan benar");
+  if(!day || !month){
+    alert("Please entry correctly");
   } else {
     console.log("Day: " + day);
     console.log("Month: " + month);
